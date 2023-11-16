@@ -1,0 +1,114 @@
+#b96eh {
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    min-width: 0;
+}
+
+#masterPage {
+    --pinned-layers-in-page: 0;
+}
+
+#comp-lldfs3hy {
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    min-width: 0;
+}
+
+#comp-l2xazhrs {
+    width: 547px;
+    height: auto;
+}
+
+#comp-l2xb12vc {
+    width: 243px;
+    height: auto;
+}
+
+[data-mesh-id=comp-lldfs3hyinlineContent] {
+    height: auto;
+    width: 100%
+}
+
+[data-mesh-id=comp-lldfs3hyinlineContent-gridContainer] {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: 705px;
+    grid-template-rows: min-content 1fr;
+    grid-template-columns: 100%
+}
+
+[data-mesh-id=comp-lldfs3hyinlineContent-gridContainer] > [id="comp-l2xazhrs"] {
+    position: relative;
+    margin: 75px 0px -49px calc((100% - 980px) * 0.5);
+    left: 84px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start
+}
+
+[data-mesh-id=comp-lldfs3hyinlineContent-gridContainer] > [id="comp-l2xb12vc"] {
+    position: relative;
+    margin: 0px 0px 10px calc((100% - 980px) * 0.5);
+    left: 650px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start
+}
+
+[data-mesh-id=Containerb96ehinlineContent] {
+    height: auto;
+    width: 100%
+}
+
+[data-mesh-id=Containerb96ehinlineContent-gridContainer] {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: 40px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+    padding-bottom: 0px;
+    box-sizing: border-box
+}
+
+[data-mesh-id=Containerb96ehinlineContent-gridContainer] > [id="comp-lldfs3hy"] {
+    position: relative;
+    margin: 0px 0px 0 calc((100% - 980px) * 0.5);
+    left: 0px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start
+}
+
+#comp-l2xazhrs {
+    height: auto
+}
+
+#comp-l2xb12vc {
+    --min-height: 433px;
+    height: auto
+}
+
+#pageBackground_b96eh {
+    --bg-position: fixed;
+    --fill-layer-image-opacity: 1;
+    --bg-overlay-color: rgb(var(--color_11));
+    --bg-gradient: none;
+    --fill-layer-image-height: 120%
+}
+
+#b96eh {
+    width: auto;
+    min-height: 40px
+}
+
+#comp-lldfs3hy {
+    --bg-overlay-color: transparent;
+    --bg-gradient: none;
+    min-width: 980px
+}

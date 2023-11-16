@@ -1,0 +1,112 @@
+[data-mesh-id=comp-lldfvq8ginlineContent] {
+    height: auto;
+    width: 100%
+}
+
+[data-mesh-id=comp-lldfvq8ginlineContent-gridContainer] {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: 510px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%
+}
+
+[data-mesh-id=comp-lldfvq8ginlineContent-gridContainer]>[id="comp-lldfvq8j"] {
+    position: relative;
+    margin: 63px 0px 10px calc((100% - var(--site-width)) * 0.5);
+    left: 50%;
+    transform:translateX(-50%);
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start
+}
+
+[data-mesh-id=Containerqd0uninlineContent] {
+    height: auto;
+    width: 100%
+}
+
+[data-mesh-id=Containerqd0uninlineContent-gridContainer] {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: 40px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+    padding-bottom: 0px;
+    box-sizing: border-box
+}
+
+[data-mesh-id=Containerqd0uninlineContent-gridContainer]>[id="comp-lldfvq8g"] {
+    position: relative;
+    margin: 0px 0px 0 calc((100% - var(--site-width)) * 0.5);
+    left: 0px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start
+}
+
+#comp-lldfvq8g {
+    --fill-layer-image-opacity: 1;
+    --bg-overlay-color: rgb(var(--color_15));
+    --bg-gradient: none;
+    min-width: var(--site-width)
+}
+
+#qd0un {
+    --bg: var(--color_11);
+    --alpha-bg: 1;
+}
+
+#qd0un {
+    left: 0;
+    margin-left: 0;
+    width: var(--site-width);
+}
+
+#masterPage {
+    --pinned-layers-in-page: 0;
+}
+
+#qd0un {
+    --shc-mutated-brightness: 22, 22, 22;
+    width: auto;
+    min-height: 40px;
+}
+
+#pageBackground_qd0un {
+    --bg-position: absolute;
+    --fill-layer-image-opacity: 0.3;
+    --bg-overlay-color: rgb(var(--color_11));
+    --bg-gradient: none;
+}
+
+#comp-lldfvq8g {
+    left: 0;
+    margin-left: 0;
+    width: var(--site-width);
+}
+
+#comp-lldfvq8j {
+    width: 74.375%;
+    height: auto;
+}
+
+#comp-lldfvq8j {
+    --font_0: normal normal bold 16.704545454545453px/1.4em avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+    --font_1: normal normal normal 12.727272727272727px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+    --font_2: normal normal normal 19.09090909090909px/1.4em avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+    --font_3: normal normal normal 39.77272727272727px/1.4em lulo-clean-w01-one-bold, lulo-clean-w05-one-bold, sans-serif;
+    --font_4: normal normal normal 23.863636363636363px/1.4em lulo-clean-w01-one-bold, lulo-clean-w05-one-bold, sans-serif;
+    --font_5: normal normal normal 20.68181818181818px/1.4em lulo-clean-w01-one-bold, lulo-clean-w05-one-bold, sans-serif;
+    --font_6: normal normal normal 17.5px/1.4em avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+    --font_7: normal normal normal 14.318181818181817px/1.4em avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+    --font_8: normal normal normal 11.931818181818182px/1.4em avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+    --font_9: normal normal normal 11.931818181818182px/1.4em avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+    --font_10: normal normal normal 10.34090909090909px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+    height: auto;
+}
+

@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1" id="wixDesktopViewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" sizes="192x192" href="~/client/pfavico.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="~/client/pfavico.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="~/client/pfavico.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="~/client/pfavico.ico">
+  
+    <link rel="stylesheet" href="~/css/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/css/wix-thunderbolt/dist/main.6f27a173.min.css">
+    <link rel="stylesheet" href="~/css/wix-thunderbolt/dist/main.renderer.df786773.min.css" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
+    <script src="https://accounts.google.com/gsi/client" async></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="~/js/master.js"></script>
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt_bootstrap-classic.f51bf0b8.min.css">
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt_bootstrap-responsive.9ccc3fa4.min.css">
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt_bootstrap.50b4e546.min.css" />
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[TextInput].d60e19f6.min.css">
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[TextAreaInput].8ddf95e2.min.css" />
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt-AppWidget_Classic.min.css">
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[FormContainer_FormContainerSkin].bbc5b359.min.css" />
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[SkipToContentButton].39deac6a.min.css" />
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[WPhoto_LiftedShadowPhoto].85a58591.min.css" />
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[FiveGridLine_SolidLine].e5175607.min.css" />
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[ClassicSection].4bee31a8.min.css" />
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[Container_CircleArea].3909b5a2.min.css" />
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[HoverBox].dc1eacc4.min.css" />
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[TinyMenu_TinyMenuFullScreenSkin].fd794972.min.css" />
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt_common-site-members-dialogs.62c22d0e.min.css" />
+    <link rel="stylesheet" href="~/css/wix-thunderbolt/group_2.10839735.chunk.min.css" />
+    <link rel="stylesheet" href="~/css/wix-thunderbolt/group_7.bae0ce0c.chunk.min.css" />
+    <link rel="stylesheet" href="~/css/communities-blog-ooi/1.1112.0/client-viewer/private-profile-actions.chunk.min.css " />
+    <link rel="stylesheet" href="~/css/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[Container_DefaultAreaSkin].20cb0a2f.min.css" />
+    <link href="~/css/communities-blog-ooi/1.1112.0/client-viewer/3216.chunk.min.css" rel="stylesheet">
+    <link href="~/css/communities-blog-ooi/1.1112.0/client-viewer/9770.chunk.min.css" rel="stylesheet">
+    <link href="~/css/communities-blog-ooi/1.1112.0/client-viewer/LinkViewer.chunk.min.css" rel="stylesheet">
+    <link href="~/css/communities-blog-ooi/1.1112.0/client-viewer/image-viewer.chunk.min.css" rel="stylesheet">
+    <link href="~/css/communities-blog-ooi/1.1112.0/client-viewer/post-actions.chunk.min.css" rel="stylesheet">
+    <link href="~/css/communities-blog-ooi/1.1112.0/client-viewer/feed-page-modals.chunk.min.css" rel="stylesheet">
+
+    @if (ViewBag.MetaTag != null)
+    {
+        var metaTag = (MetaTag)ViewBag.MetaTag;
+        <title>@metaTag.Title</title>
+        <link rel="canonical" href="@metaTag.Url" />
+        <meta property="og:title" content="@metaTag.Title" />
+        <meta property="og:url" content="@metaTag.Url" />
+        <meta property="og:site_name" content="Inholdings" />
+        <meta property="og:type" content="website" />
+        @if (string.IsNullOrEmpty(metaTag.Description))
+        {
+            <meta property="og:description" content="@metaTag.Description">
+            <meta property="og:type" content="website" />
+        }
+        <link rel="alternate" href="/blog-feed.xml" type="application/rss+xml" title="Inholdings - RSS" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="@metaTag.Title" />
+        @foreach( var css in metaTag.CssLinks)
+        {
+            <link rel="stylesheet" href='@("/css"+css)' />
+        }
+    }
+
+</head>
+
+<body class=''>
+    <div id="g_id_onload" data-client_id="75282033950-jnl6rjr7eu640dfv1nfqkh63i5863gpf.apps.googleusercontent.com"
+         data-auto_prompt="false" data-callback="onSignIn">
+    </div>
+    <div id="SITE_CONTAINER">
+        <div id="main_MF" class="wix-global-css">
+            <div id="SCROLL_TO_TOP" class="Vd6aQZ ignore-focus SCROLL_TO_TOP" tabindex="-1" role="region"
+             aria-label="top of page">
+                <span class="mHZSwn">top of page</span>
+            </div>
+            <div id="site-root" class="site-root">
+                <div id="masterPage" class="mesh-layout masterPage css-editing-scope">
+                @Html.Partial("~/Views/Shared/Partial/_header.cshtml")
+                @RenderBody()
+                @Html.Partial("~/Views/Shared/Partial/_footer.cshtml")
+                </div>
+            </div>
+            @Html.Partial("~/Views/Shared/Partial/_login.cshtml")
+            <div id="SCROLL_TO_BOTTOM" class="Vd6aQZ ignore-focus SCROLL_TO_BOTTOM" tabindex="-1" role="region"
+                    aria-label="bottom of page">
+                <span class="mHZSwn">bottom of page</span>
+            </div>
+        </div>
+    </div>
+    <script src="~/js/blog.js"></script>
+    <script src="~/js/custom.js"></script>
+</body>
+</html>
