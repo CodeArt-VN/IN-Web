@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+ms0pBytUWFizY/wTD2fwcZRAuqG1k1XXZlnMXgbFYw=",
+  "Hash": "VZEWIPTC0kM6eZMMCs7+8UW+A9Kg9Rz6tjLhCJiZLUw=",
   "Source": "Inholdings",
   "BasePath": "_content/Inholdings",
   "Mode": "Default",
@@ -2856,12 +2856,12 @@
       "OriginalItemSpec": "wwwroot\\img\\media\\391663962_730001139142936_657801.jpg"
     },
     {
-      "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\46f0ca_0117704a99564ed9a03b3c7877fa6b44~mv2.png",
+      "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\46f0ca_0117704a99564ed9a03b3c7877fa6b44mv2.png",
       "SourceId": "Inholdings",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\",
       "BasePath": "_content/Inholdings",
-      "RelativePath": "img/media/46f0ca_0117704a99564ed9a03b3c7877fa6b44~mv2.png",
+      "RelativePath": "img/media/46f0ca_0117704a99564ed9a03b3c7877fa6b44mv2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2870,7 +2870,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\media\\46f0ca_0117704a99564ed9a03b3c7877fa6b44~mv2.png"
+      "OriginalItemSpec": "wwwroot\\img\\media\\46f0ca_0117704a99564ed9a03b3c7877fa6b44mv2.png"
     },
     {
       "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\46f0ca_016823b4bdaa4463ac9cc2488e013b09~mv2.jpg",
@@ -4097,12 +4097,12 @@
       "OriginalItemSpec": "wwwroot\\img\\media\\9352ed58f0cc309269dd.jpg"
     },
     {
-      "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\anh Phúc.jpg",
+      "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\anhPhuc.jpg",
       "SourceId": "Inholdings",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\",
       "BasePath": "_content/Inholdings",
-      "RelativePath": "img/media/anh Phúc.jpg",
+      "RelativePath": "img/media/anhPhuc.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4111,7 +4111,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\media\\anh Phúc.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\media\\anhPhuc.jpg"
     },
     {
       "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\bc3ec7bc825c4e6ca746c659189cea83.jpg",
@@ -4148,12 +4148,12 @@
       "OriginalItemSpec": "wwwroot\\img\\media\\Copy of EOS 5D Mark IV_9999_311_edited.jpg"
     },
     {
-      "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\Chị Hoa.jpg",
+      "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\ChiHoa.jpg",
       "SourceId": "Inholdings",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\",
       "BasePath": "_content/Inholdings",
-      "RelativePath": "img/media/Chị Hoa.jpg",
+      "RelativePath": "img/media/ChiHoa.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4162,7 +4162,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\media\\Chị Hoa.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\media\\ChiHoa.jpg"
     },
     {
       "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\Dao.jpg",
@@ -4454,12 +4454,12 @@
       "OriginalItemSpec": "wwwroot\\img\\media\\Gem6.jpg"
     },
     {
-      "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\logo dẹp.png",
+      "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\Logo PNG-trang-dited.png",
       "SourceId": "Inholdings",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\",
       "BasePath": "_content/Inholdings",
-      "RelativePath": "img/media/logo dẹp.png",
+      "RelativePath": "img/media/Logo PNG-trang-dited.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4468,15 +4468,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\media\\logo dẹp.png"
+      "OriginalItemSpec": "wwwroot\\img\\media\\Logo PNG-trang-dited.png"
     },
     {
-      "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\logo dẹp2x.png",
+      "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\logo-dep.png",
       "SourceId": "Inholdings",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\",
       "BasePath": "_content/Inholdings",
-      "RelativePath": "img/media/logo dẹp2x.png",
+      "RelativePath": "img/media/logo-dep.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4485,15 +4485,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\media\\logo dẹp2x.png"
+      "OriginalItemSpec": "wwwroot\\img\\media\\logo-dep.png"
     },
     {
-      "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\Logo PNG trắng_edited.png",
+      "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\logo-dep2x.png",
       "SourceId": "Inholdings",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\",
       "BasePath": "_content/Inholdings",
-      "RelativePath": "img/media/Logo PNG trắng_edited.png",
+      "RelativePath": "img/media/logo-dep2x.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4502,7 +4502,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\media\\Logo PNG trắng_edited.png"
+      "OriginalItemSpec": "wwwroot\\img\\media\\logo-dep2x.png"
     },
     {
       "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\Member Card - Benefits.jpg",
@@ -5287,12 +5287,12 @@
       "OriginalItemSpec": "wwwroot\\img\\media\\The Log 1.jpg"
     },
     {
-      "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\The Log trắng.png",
+      "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\The Log-trang.png",
       "SourceId": "Inholdings",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\",
       "BasePath": "_content/Inholdings",
-      "RelativePath": "img/media/The Log trắng.png",
+      "RelativePath": "img/media/The Log-trang.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -5301,7 +5301,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\media\\The Log trắng.png"
+      "OriginalItemSpec": "wwwroot\\img\\media\\The Log-trang.png"
     },
     {
       "Identity": "C:\\Users\\WP\\source\\repos\\Inholdings\\Inholdings\\wwwroot\\img\\media\\White Pathway.jpg",
