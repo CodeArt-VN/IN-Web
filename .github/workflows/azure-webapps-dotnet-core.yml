@@ -60,5 +60,5 @@ jobs:
           server: 103.90.220.198
           username: in-web
           password: QMKZAjF^HWImy+Gv@2
-          local-dir: ${{env.DOTNET_ROOT}}/myapp
+          local-dir: ${{env.DOTNET_ROOT}}/myapp/
           server-dir: ${{ env.WEB_PATH }}
