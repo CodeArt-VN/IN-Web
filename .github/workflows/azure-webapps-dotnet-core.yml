@@ -3,7 +3,7 @@ name: Build and deploy ASP.Net Core app to FTP
 
 env:
   WEB_PATH: '/'                            # set this to the path to your web app project
-  DOTNET_VERSION: '7.0.0'                  # set this to the .NET Core version to use
+  DOTNET_VERSION: '7.0.13'                  # set this to the .NET Core version to use
 
 on:
   push:
