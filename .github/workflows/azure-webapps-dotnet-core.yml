@@ -36,13 +36,13 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish -c Release -o ./Inholdings/Release/
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
           name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
+          path: ./Inholdings/Release/
 
   deploy:
     permissions:
@@ -54,11 +54,19 @@ jobs:
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
-      - name: 📂 Upload files to FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
+     - name: Checkout repository
+       uses: actions/checkout@v3
+     - name: Download artifact from build job
+       uses: actions/download-artifact@v2
+       with:
+          name: .net-app
+          path: ./Inholdings/Release/
+
+     - name: 📂 Upload files to FTP
+       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+       with:
           server: 103.90.220.198
           username: in-web
           password: QMKZAjF^HWImy+Gv@2
-          local-dir:  ${{ env.DOTNET_ROOT }}/myapp/
+          local-dir:  ./Inholdings/Release/
           server-dir: ${{ env.WEB_PATH }}
