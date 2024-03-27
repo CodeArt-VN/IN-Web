@@ -636,8 +636,8 @@
     display: grid;
     height: auto;
     width: 100%;
-    min-height: auto;
-    grid-template-rows: 1fr;
+    min-height: 1119px;
+    grid-template-rows: min-content 1fr;
     grid-template-columns: 100%
 }
 
@@ -660,7 +660,7 @@
     display: grid;
     height: auto;
     width: 100%;
-    min-height: auto;
+    min-height: 451px;
     grid-template-rows: 1fr;
     grid-template-columns: 100%
 }
@@ -1259,6 +1259,15 @@
     align-self: start
 }
 
+[data-mesh-id=comp-lldfs3i4inlineContent-gridContainer] > [id="comp-lu82ju92"] {
+    position: relative;
+    margin: 0px 0px 10px calc((100% - 980px)* 0.5);
+    left: 0px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
 #comp-l2x93fzn {
     height: auto
 }
@@ -1623,4 +1632,114 @@
     width: 100%;
     --column-width: 980px;
     --column-flex: 980
+}
+
+#comp-lu82ju92 {
+    width: 979px;
+    height: 526px;
+    --contentPaddingLeft: 0px;
+    --contentPaddingRight: 0px;
+    --contentPaddingTop: 0px;
+    --contentPaddingBottom: 0px;
+    --height: 526px;
+    --width: 979px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#comp-l2x97oxy {
+    --contentPaddingLeft: 0px;
+    --contentPaddingRight: 0px;
+    --contentPaddingTop: 0px;
+    --contentPaddingBottom: 0px;
+}
+
+#comp-l2x97oxy {
+    width: 200px;
+    height: 22px;
+}
+[data-mesh-id=comp-l2su7lfsinlineContent-gridContainer] > [id="comp-l2x97oxy"] {
+    position: relative;
+    margin: 28px 0px 10px calc((100% - 980px)* 0.5);
+    left: 109px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#comp-l2x95v9j {
+    width: 138px;
+    height: 69px;
+    --contentPaddingLeft: 0px;
+    --contentPaddingRight: 0px;
+    --contentPaddingTop: 0px;
+    --contentPaddingBottom: 0px;
+    --height: 69px;
+    --width: 138px;
+    --mask-image: url(data:image/svg+xml,%3Csvg preserveAspectRatio='none' data-bbox='20 20 160 160' viewBox='20 20 160 160' height='200' width='200' xmlns='http://www.w3.org/2000/svg' data-type='shape'%3E%3Cg%3E%3Cpath d='M180 20v160H20V20h160z'/%3E%3C/g%3E%3C/svg%3E%0A);
+    --mask-position: 0% 0%;
+    --mask-size: 100% 100%;
+    --mask-repeat: no-repeat;
+}
+[data-mesh-id=comp-l2su7lfsinlineContent-gridContainer] > [id="comp-l2x95v9j"] {
+    position: relative;
+    margin: 0px 0px 10px calc((100% - 980px)* 0.5);
+    left: 350px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+
+#comp-lu82qxzg {
+    width: 57px;
+    height: 46px;
+    --contentPaddingLeft: 0px;
+    --contentPaddingRight: 0px;
+    --contentPaddingTop: 0px;
+    --contentPaddingBottom: 0px;
+    --height: 46px;
+    --width: 57px;
+    --mask-image: url(data:image/svg+xml,%3Csvg preserveAspectRatio='none' data-bbox='20 20 160 160' viewBox='20 20 160 160' height='200' width='200' xmlns='http://www.w3.org/2000/svg' data-type='shape'%3E%3Cg%3E%3Cpath d='M180 20v160H20V20h160z'/%3E%3C/g%3E%3C/svg%3E%0A);
+    --mask-position: 0% 0%;
+    --mask-size: 100% 100%;
+    --mask-repeat: no-repeat;
+}
+
+[data-mesh-id=comp-l2su7lfsinlineContent-gridContainer] > [id="comp-lu82qxzg"] {
+    position: relative;
+    margin: 16px 0px 10px calc((100% - 980px)* 0.5);
+    left: 554px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#comp-lu82uyba {
+    width: 138px;
+    height: 40px;
+    --contentPaddingLeft: 0px;
+    --contentPaddingRight: 0px;
+    --contentPaddingTop: 0px;
+    --contentPaddingBottom: 0px;
+    --height: 40px;
+    --width: 138px;
+}
+[data-mesh-id=comp-l2su7lfsinlineContent-gridContainer] > [id="comp-lu82uyba"] {
+    position: relative;
+    margin: 19px 0px 10px calc((100% - 980px)* 0.5);
+    left: 693px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
 }
