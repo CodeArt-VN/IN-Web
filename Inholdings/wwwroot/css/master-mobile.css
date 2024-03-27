@@ -1339,7 +1339,7 @@
 [data-mesh-id=SITE_FOOTERinlineContent-gridContainer]>[id="comp-lcpnhtis"] {
     position: relative;
     margin: 0px 0px 10px calc((100% - var(--site-width)) * 0.5);
-    left: 10px;
+    left: 20px;
     grid-area: 3 / 1 / 4 / 2;
     justify-self: start;
     align-self: start
@@ -1348,7 +1348,7 @@
 [data-mesh-id=SITE_FOOTERinlineContent-gridContainer]>[id="comp-lcpnisut"] {
     position: relative;
     margin: 0px 0px 10px calc((100% - var(--site-width)) * 0.5);
-    left: 10px;
+    left: 20px;
     grid-area: 4 / 1 / 5 / 2;
     justify-self: start;
     align-self: start
