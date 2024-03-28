@@ -7565,7 +7565,8 @@ html.enable-scroll .l7pLjR {
     position: static;
     display: grid;
     height: auto;
-    width: 100%;
+    width: 84%;
+    transform: translateX(16%);
     min-height: auto;
     grid-template-rows: repeat(4, min-content) 1fr;
     grid-template-columns: 100%
