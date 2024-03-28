@@ -20,7 +20,7 @@ $(document).ready(function(){
         let contentHeight = $('#mediair4tvn771').height();
         if($('#mediair4tvn771').length>0  != undefined && bodyContent.length>0){
             if(scrollTop+300 > bodyContent.offset().top &&(scrollTop/(bodyContent.offset().top + contentHeight)<1 && scrollTop/(bodyContent.offset().top + contentHeight)>0.02)){
-                let opacity = 1-(scrollTop/(bodyContent.offset().top + contentHeight));
+                let opacity = 1.4 -(scrollTop/(bodyContent.offset().top + contentHeight));
                 $('#mediair4tvn771 #bgLayers_mediair4tvn771').css('opacity',opacity);
            }
         }
