@@ -20,11 +20,11 @@ namespace Inholdings.Services
         {
             try
             {
-                var smtpClient = new SmtpClient("smtp.gmail.com")
+                var smtpClient = new SmtpClient(_configuration["smtp"])
                 {
-                    Port = 587,
+                    Port = int.Parse(_configuration["port"]),
                     Credentials = new NetworkCredential(_configuration["InMail"], _configuration["InPassword"]),
-                    EnableSsl = true,
+                    EnableSsl = bool.Parse(_configuration["EnableSsl"]),
                 };
 
                 var bodyMessage = "   <ul>\r\n            <li><strong>Email:</strong> {{ emailModel.Email }}</li>\r\n            <li><strong>Name:</strong> {{ emailModel.FirstName }} {{ emailModel.LastName }}</li>\r\n            <li><strong>Message:</strong> {{ emailModel.Message }}</li>\r\n        </ul>";
