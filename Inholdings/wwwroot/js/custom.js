@@ -43,9 +43,56 @@ $(document).ready(function(){
         $('#popup-login-container').css('display','none');       
     })
 //-----------
-    $('#comp-l2xbcfk7').on('submit',function(event){{
-        event.preventDefault();
-        setTimeout(function(){
+    
+    $('#comp-jxd8cqw4').on('submit', function (event) { // footer submit
+        {
+            event.preventDefault();
+            var formdata = $(this).serialize();
+            $.ajax({
+                url: '/SendMail',
+                type: 'POST',
+                dataType: 'json',
+                contentType: 'application/x-www-form-urlencoded',
+                data: formdata,
+                success: function (data) {
+                    alert("Saved successfully");
+                },
+                error: function (error) {
+                    console.log(`Error ${error}`);
+                }
+            });
+            setTimeout(function () {
+                $('#comp-jxd8cqwg').css('display', 'block');
+                $('#comp-jxd8cqw4 input').val('');
+                $('#comp-jxd8cqw4 textarea').val('');
+            }, 1000)
+            setTimeout(function () {
+                $('#comp-jxd8cqwg').css('display', 'none');
+
+            }, 3000)
+        }
+    })
+    $('#comp-l2xbcfk7').on('submit', function (event) { // 
+        {
+            event.preventDefault();
+            var formdata = $(this).serialize();
+            $.ajax({
+                url: '/SendMail',
+                type: 'POST',
+                dataType: 'json',
+                contentType: 'application/x-www-form-urlencoded',
+                data: formdata,
+                success: function (data) {
+                    alert("Saved successfully");
+                },
+                error: function (error) {
+                    console.log(`Error ${error}`);
+                }
+            });
+        setTimeout(function () {
+            let emailModel = {
+                Email: $('#comp-l2xbcfoc')
+            }
             $('#comp-l2xbcfoc').css('display','block');
             $('#comp-l2xbcfk7 input').val('');
             $('#comp-l2xbcfk7 textarea').val('');
@@ -55,21 +102,9 @@ $(document).ready(function(){
           
         },3000)
 
-    }})
-    $('#comp-jxd8cqw4').on('submit',function(event){{
-        event.preventDefault();
-        setTimeout(function(){
-            $('#comp-jxd8cqwg').css('display','block');
-            $('#comp-jxd8cqw4 input').val('');
-            $('#comp-jxd8cqw4 textarea').val('');
-        },1000)
-        setTimeout(function(){
-            $('#comp-jxd8cqwg').css('display','none');
-          
-        },3000)
-
-    }})
-    
+    }
+    })
+ 
     $('#TINY_MENU [data-testid=tinymenu-menubutton').click(function(){
         if ($('#TINY_MENU').hasClass('IQ5y6N')){
             $('#TINY_MENU').removeClass('IQ5y6N');

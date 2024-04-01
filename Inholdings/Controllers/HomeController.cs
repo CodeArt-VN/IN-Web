@@ -1,5 +1,6 @@
 ﻿using Inholdings.Common;
 using Inholdings.Models;
+using Inholdings.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Windows;
@@ -8,11 +9,13 @@ namespace Inholdings.Controllers
     public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IEmailService _emailService;
         private string _device= "DESKTOP";
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IEmailService emailService)
         {
           
             _logger = logger;
+            _emailService = emailService;
         }
 
         public IActionResult Index()
@@ -142,6 +145,22 @@ namespace Inholdings.Controllers
             ViewBag.Device = _device;
             return View();
         }
+
+        [Route("SendMail")]
+        [HttpPost]
+        public async Task<IActionResult> SendMail(EmailModel emailModel)
+        {
+            try
+            {
+                await _emailService.SendEmailAsync(emailModel);
+            }
+            catch(Exception ex){
+
+            }
+            ViewBag.Device = _device;
+            return View();
+        }
+
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
