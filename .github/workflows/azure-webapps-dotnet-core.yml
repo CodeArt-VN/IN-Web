@@ -39,7 +39,7 @@ jobs:
         run: dotnet publish -c Release -o ./Inholdings/Release/
 
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: .net-app
           path: ./Inholdings/Release/
@@ -55,13 +55,13 @@ jobs:
 
     steps:
      - name: Download artifact from build job
-       uses: actions/download-artifact@v2
+       uses: actions/download-artifact@v4
        with:
           name: .net-app
           path: ./Inholdings/Release/
 
      - name: 📂 Upload files to FTP
-       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
        with:
           server: 103.90.220.198
           username: in-web
