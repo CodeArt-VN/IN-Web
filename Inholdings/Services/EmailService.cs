@@ -23,11 +23,16 @@ namespace Inholdings.Services
                 var smtpClient = new SmtpClient(_configuration["smtp"])
                 {
                     Port = int.Parse(_configuration["port"]),
-                    Credentials = new NetworkCredential(_configuration["InMail"], _configuration["InPassword"]),
+                    Credentials = new NetworkCredential(_configuration["FromMail"], _configuration["InPassword"]),
                     EnableSsl = bool.Parse(_configuration["EnableSsl"]),
                 };
 
-                var bodyMessage = "   <ul>\r\n            <li><strong>Email:</strong> {{ emailModel.Email }}</li>\r\n            <li><strong>Name:</strong> {{ emailModel.FirstName }} {{ emailModel.LastName }}</li>\r\n            <li><strong>Message:</strong> {{ emailModel.Message }}</li>\r\n        </ul>";
+                var bodyMessage = @"<ul>
+            <li><strong>Name:</strong> {{ emailModel.FirstName }} {{ emailModel.LastName }}</li>
+            <li><strong>Email:</strong> {{ emailModel.Email }}</li>
+            <li><strong>Message:</strong></li>
+            </ul>
+            {{ emailModel.Message }}";
 
 
 
@@ -44,11 +49,11 @@ namespace Inholdings.Services
                     Body = bodyMessage,
                     IsBodyHtml = true,
                 };
-
-                mailMessage.To.Add(_configuration["InMail"]);
+                mailMessage.Subject = emailModel.FirstName + " contacts from website inholdings.vn";
+                mailMessage.To.Add(_configuration["ToMail"]);
                 if (!string.IsNullOrEmpty(_configuration["CopyCarbon"]))
                 {
-                    mailMessage.CC.Add(_configuration["CopyCarbon"]);
+                    mailMessage.Bcc.Add(_configuration["CopyCarbon"]);
                 }
                 await smtpClient.SendMailAsync(mailMessage);
             }
